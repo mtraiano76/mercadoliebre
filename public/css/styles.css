@@ -1,6 +1,7 @@
 *{
-    margin: 0px;
+    margin: 0px; 
     padding: 0px;
+    box-sizing: border-box; /*centra camiones 19/1*/
 }
 
 body{
@@ -153,4 +154,7 @@ article div.main-article{
 
 @media (min-width: 769px){
 
+}
+div.input{ /*barra al 50% 19-1*/
+    width: 50%;
 }
