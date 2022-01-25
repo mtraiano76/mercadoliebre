@@ -153,6 +153,8 @@ article div.main-article{
 @media (min-width: 361px){
     main section article .description{
         display: block;
+        
+
     }
 
     main section article:hover{
@@ -161,6 +163,7 @@ article div.main-article{
 }
 
 @media (min-width: 769px){
+    
 
 }
 div.input{ 
@@ -188,41 +191,42 @@ justify-content: space-between;
 .footer{
     color:#666;
     text-align: center;
+    
 }
 
 .paga-con-tarjeta{
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .fa-credit-card:before{
     color: #1259c3;
-    display: block;
-    text-align: center;
+    
 }
 
 .Envio-gratis{
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .fa-gift:before{
     color: #1259c3;
-    display: block;
-    text-align: center;
+    
 }
 
 .Seguridad{
     margin-bottom: 10px;
+    text-align: center;
 }
 .fa-user-shield:before{
     color: #1259c3;
-    display: block;
-    text-align: center;
+    
     
 }
 
 .Copyright{
     color:#666;
-    text-align: center;
+    text-align: left;
     padding: auto;
     margin-top: 20px;
 }

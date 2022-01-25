@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="css/stylesRegister.css" rel="stylesheet" type="text/css">
 
     <title>Formularios</title>
   </head>
@@ -38,32 +39,32 @@
     </header>
 
     <form method="POST" action="#">
-        <h3>Este es un formulario</h3>
 
         <div class="nombre-apellido">        
-            <input type="Nombre y apellido" placeholder="Ingrese su nombre y apellido"value="Nombre y Apellido" >
+            <input type="Nombre y apellido" placeholder="Nombre y apellido">
         </div>  
 
         <div class="usuario">
-            <input type="Nombre de usuario" placeholder="Ingrese su nombre de usuario"value="Nombre de Usuario">
+            <input type="Nombre de usuario" placeholder="Nombre de usuario">
         </div>   
 
         <div class="email">
-            <input type="email" placeholder="Ingrese su email" value="Email del Usuario">
+            <input type="email" placeholder="E-mail">
         </div>
 
         <div class="fecha-de-nacimiento">
             <label>Fecha de nacimiento</label>
-                <input type="date" placeholder="Ingrese su fecha de nacimiento" value="Fecha de nacimiento">
+                <input type="date" placeholder="Fecha de nacimiento">
        </div>
         
         <div class="domicilio">
             <label>Domicilio</label>
-                <input type="text" placeholder="Ingrese su domicilio" value="domicilioDelUsuario">
+                <input type="text" placeholder="Domicilio">
         </div>
-        
         <div class ="perfil">
             <label>Perfil del usuario</label>
+        </div>
+        <div class ="comprar-vender"></div>
                 <input id="comprar" type="radio" name="comprar-vender" value="Comprar">
             <label for="comprar">Comprar</label>
                 <input id="vender" type="radio" name="comprar-vender" value="Vender">
@@ -71,7 +72,8 @@
         </div>
 
         <div class="interes">
-            <label>Intereses</label>
+            <label>Intereses</label></div>
+             <div class="interes-del-usuario">
                 <input id="Intereses" type="checkbox" name="Intereses" value="Electro">
             <label for="Intereses">Electro</label>
                 <input id="Intereses" type="checkbox" name="Intereses" value="Moda">
@@ -86,9 +88,10 @@
 
         <div class="foto-de-perfil">
             <label>Foto de Perfil</label>
-                <input type="file" name="avatar" accept=".jpg" multiple>
         </div>
-
+        <div class="boton-foto-de-perfil">    
+            <input type="file" name="avatar" accept=".jpg" multiple>
+        </div>
         <div class="password">
             <input type="password" name="password" placeholder="Contraseña">
             <input type="password" name="password" placeholder="Confirme contraseña">
@@ -96,6 +99,9 @@
 
         <div class="reset">
             <button type="reset">Reset</button>
+        </div> 
+        <div class="enviar">
+            <button type="submit"><a href="/home">Enviar</a></button>
         </div> 
 
     </form>
