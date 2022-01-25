@@ -1,7 +1,7 @@
 *{
     margin: 0px; 
     padding: 0px;
-    box-sizing: border-box; /*centra camiones 19/1*/
+    box-sizing: border-box; 
 }
 
 body{
@@ -50,6 +50,7 @@ header .form .input{
     outline: none;
     color: #666;
     padding: 2px;
+    width: 95%;
 }
 header .form .submit{
     background-color: #FFF;
@@ -106,26 +107,22 @@ section.banner img{
 main{
     width: 90%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 main section article{
     background-color: #fff;    
     margin: 10px 0px;
-    height:900px;
+    height: 450px;
     overflow: hidden;
     transition: all 3s;
 }
-main section article:hover {
-    height: 950px;
 
+main section article:hover{
+    height: 475px;
 }
 
 main section article img{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 main section article i,
@@ -158,7 +155,7 @@ article div.main-article{
         display: block;
     }
 
-    main section article{
+    main section article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 }
@@ -166,6 +163,66 @@ article div.main-article{
 @media (min-width: 769px){
 
 }
-div.input{ /*barra al 50% 19-1*/
+div.input{ 
     width: 50%;
+}
+    
+div.products{   
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.fa-truck {
+    transition: .5s;    ;
+}
+
+.fa-truck:hover{
+    transform: rotate(-90deg);
+}
+
+.top-header{
+    display: flex;
+}
+
+.footer{
+    color:#666;
+    text-align: center;
+}
+
+.paga-con-tarjeta{
+    margin-bottom: 10px;
+}
+
+.fa-credit-card:before{
+    color: #1259c3;
+    display: block;
+    text-align: center;
+}
+
+.Envio-gratis{
+    margin-bottom: 10px;
+}
+
+.fa-gift:before{
+    color: #1259c3;
+    display: block;
+    text-align: center;
+}
+
+.Seguridad{
+    margin-bottom: 10px;
+}
+.fa-user-shield:before{
+    color: #1259c3;
+    display: block;
+    text-align: center;
+    
+}
+
+.Copyright{
+    color:#666;
+    text-align: center;
+    padding: auto;
+    margin-top: 20px;
 }
