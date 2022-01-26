@@ -33,15 +33,19 @@ header div.logo{
 }
 header nav{
     font-size: 12px;
+    
 }
 
 header ul li{
     list-style-type: none;
+    display: flex;
+    
 }
 
 header ul li a{
     text-decoration: none;
     color: #000;
+    
 }
 
 header .form .input{
@@ -115,7 +119,8 @@ main section article{
     margin: 10px 0px;
     height:900px;
     overflow: hidden;
-    transition: all 3s;
+    transition: all .3s;
+    
 }
 main section article:hover {
     height: 950px;
@@ -168,4 +173,8 @@ article div.main-article{
 }
 div.input{ /*barra al 50% 19-1*/
     width: 50%;
+}
+div.form{
+    display: flex;
+
 }
