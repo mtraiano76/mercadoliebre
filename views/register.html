@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" >
     <link href="css/stylesRegister.css" rel="stylesheet" type="text/css">
 
     <title>Formularios</title>
@@ -39,7 +39,6 @@
     </header>
 
     <form method="POST" action="#">
-
         <div class="nombre-apellido">        
             <input type="Nombre y apellido" placeholder="Nombre y apellido">
         </div>  
@@ -54,17 +53,22 @@
 
         <div class="fecha-de-nacimiento">
             <label>Fecha de nacimiento</label>
+        </div>
+        <div class="boton-fecha-de-nacimiento">
                 <input type="date" placeholder="Fecha de nacimiento">
        </div>
         
         <div class="domicilio">
             <label>Domicilio</label>
+        </div>
+        <div class="boton-domicilio">
                 <input type="text" placeholder="Domicilio">
         </div>
-        <div class ="perfil">
+        
+        <div class="perfil">
             <label>Perfil del usuario</label>
         </div>
-        <div class ="comprar-vender"></div>
+        <div class="comprar-vender">
                 <input id="comprar" type="radio" name="comprar-vender" value="Comprar">
             <label for="comprar">Comprar</label>
                 <input id="vender" type="radio" name="comprar-vender" value="Vender">
@@ -72,36 +76,57 @@
         </div>
 
         <div class="interes">
-            <label>Intereses</label></div>
-             <div class="interes-del-usuario">
+            <label>Intereses</label>
+        </div>
+        <div class="interes-del-usuario">
+            
+            <div class="electro">
                 <input id="Intereses" type="checkbox" name="Intereses" value="Electro">
             <label for="Intereses">Electro</label>
+            </div>
+
+            <div class="moda">
                 <input id="Intereses" type="checkbox" name="Intereses" value="Moda">
             <label for="Intereses">Moda</label>
+            </div>
+
+            <div class="hogar">
                 <input id="Intereses" type="checkbox" name="Intereses" value="Hogar">
             <label for="Intereses">Hogar</label>
+            </div>
+
+            <div class="jugueteria">
                 <input id="Intereses" type="checkbox" name="Intereses" value="Juguetería">
             <label for="Intereses">Juguetería</label>
+            </div>
+
+            <div class="vida">
                 <input id="Intereses" type="checkbox" name="Intereses" value="Vida sana">
             <label for="Intereses">Vida sana</label>
+            </div>
+            
         </div>
 
         <div class="foto-de-perfil">
             <label>Foto de Perfil</label>
         </div>
-        <div class="boton-foto-de-perfil">    
-            <input type="file" name="avatar" accept=".jpg" multiple>
+        <div class="boton-foto-de-perfil">
+                <input type="file" name="avatar" accept=".jpg" multiple>
         </div>
-        <div class="password">
+
+        <div class="password1">
             <input type="password" name="password" placeholder="Contraseña">
+        </div>
+        <div class="password2">
             <input type="password" name="password" placeholder="Confirme contraseña">
         </div>
 
+        <div class="enviar">
+            <button type="submit"><a href="C:\Users\matias\Desktop\Node\views\home.html">Enviar</a ></button>
+        </div>         
+        
         <div class="reset">
             <button type="reset">Reset</button>
-        </div> 
-        <div class="enviar">
-            <button type="submit"><a href="/home">Enviar</a></button>
         </div> 
 
     </form>

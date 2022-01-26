@@ -33,19 +33,15 @@ header div.logo{
 }
 header nav{
     font-size: 12px;
-    
 }
 
 header ul li{
     list-style-type: none;
-    display: flex;
-    
 }
 
 header ul li a{
     text-decoration: none;
     color: #000;
-    
 }
 
 header .form .input{
@@ -118,8 +114,7 @@ main section article{
     margin: 10px 0px;
     height: 450px;
     overflow: hidden;
-    transition: all .3s;
-    
+    transition: all 3s;
 }
 
 main section article:hover{
@@ -174,7 +169,64 @@ article div.main-article{
 div.input{ 
     width: 50%;
 }
-div.form{
-    display: flex;
+    
+div.products{   
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
 
+.fa-truck {
+    transition: .5s;    ;
+}
+
+.fa-truck:hover{
+    transform: rotate(-90deg);
+}
+
+.top-header{
+    display: flex;
+}
+
+.footer{
+    color:#666;
+    text-align: center;
+    
+}
+
+.paga-con-tarjeta{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.fa-credit-card:before{
+    color: #1259c3;
+    
+}
+
+.Envio-gratis{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.fa-gift:before{
+    color: #1259c3;
+    
+}
+
+.Seguridad{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.fa-user-shield:before{
+    color: #1259c3;
+    
+    
+}
+
+.Copyright{
+    color:#666;
+    text-align: left;
+    padding: auto;
+    margin-top: 20px;
 }

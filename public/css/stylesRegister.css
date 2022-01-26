@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #ebebeb;
+    background-color:#ebebeb;
 }
 
 h3{
@@ -65,13 +65,115 @@ header div.top-header p{
     margin-top: 10px;
 }
 
-/*interes-del-usuario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3%;
-    margin-bottom:4%;
+.nombre-apellido{
+    padding: 1px;
+    margin: 10px;
 }
-*/
 
+.usuario{
+    padding: 1px;
+    margin: 10px;
+}
 
+.email{
+    padding: 1px;
+    margin: 10px;
+}
+
+.fecha-de-nacimiento{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.boton-fecha-de-nacimiento{
+    padding: 1px;
+    margin: 10px;
+}
+
+.domicilio{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.boton-domicilio{
+    padding: 1px;
+    margin: 10px;
+}
+
+.perfil{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.interes{
+    font-size: 16px;
+    font-weight: bold; 
+    margin: 10px;
+}
+
+.comprar-vender{
+    padding: 1px;
+    margin: 10px;
+}
+
+.interes-del-usuario{
+    padding: 1px;
+    margin: 10px;
+}
+
+.foto-de-perfil{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.boton-foto-de-perfil{
+    padding: 1px;
+    margin: 10px;
+}
+
+.password1{
+    padding: 1px;
+    margin: 10px;
+}
+
+.password2{
+    padding: 1px;
+    margin: 10px;
+}
+
+.reset{
+    padding: 1px;
+    margin: 10px;
+}
+
+.enviar{
+    padding: 1px;
+    margin: 10px;
+}
+div.in.input{
+    text-align: center;
+}
+div.electro{
+    margin-left: 5%;
+    line-height: 3; /*interlineado poniendo solo el numero sin unidad(px,em)se multiplica por el size*/
+}
+div.moda{
+    margin-left: 5%;
+    line-height: 3; /*interlineado*/
+}
+div.hogar{
+    margin-left: 5%;
+    line-height: 3; /*interlineado*/
+}
+div.jugueteria{
+    margin-left: 5%;
+    line-height: 3; /*interlineado*/
+}
+div.vida{
+    margin-left: 5%;
+    line-height: 3; /*interlineado*/
+}
