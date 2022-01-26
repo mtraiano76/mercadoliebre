@@ -124,6 +124,30 @@ header div.top-header p{
     margin: 10px;
 }
 
+div.electro{
+    margin-left: 5%;
+    line-height: 3;
+}
+
+div.moda{
+    margin-left: 5%;
+    line-height: 3; 
+}
+
+div.hogar{
+    margin-left: 5%;
+    line-height: 3;
+}
+
+div.jugueteria{
+    margin-left: 5%;
+    line-height: 3;
+}
+div.vida{
+    margin-left: 5%;
+    line-height: 3; 
+}
+
 .foto-de-perfil{
     font-size: 16px;
     font-weight: bold;
@@ -153,27 +177,4 @@ header div.top-header p{
 .enviar{
     padding: 1px;
     margin: 10px;
-}
-div.in.input{
-    text-align: center;
-}
-div.electro{
-    margin-left: 5%;
-    line-height: 3; /*interlineado poniendo solo el numero sin unidad(px,em)se multiplica por el size*/
-}
-div.moda{
-    margin-left: 5%;
-    line-height: 3; /*interlineado*/
-}
-div.hogar{
-    margin-left: 5%;
-    line-height: 3; /*interlineado*/
-}
-div.jugueteria{
-    margin-left: 5%;
-    line-height: 3; /*interlineado*/
-}
-div.vida{
-    margin-left: 5%;
-    line-height: 3; /*interlineado*/
 }

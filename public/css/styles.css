@@ -30,7 +30,11 @@ header div.logo{
 
 header div.logo{
     padding: 10px;
+    margin-left: -14px;
+    margin-top: -10px;
+    margin-right: -20px;
 }
+
 header nav{
     font-size: 12px;
 }
@@ -82,14 +86,14 @@ div.burger-menu i{
 
 .price{
     font-size: 18px;
-    display: inline;
+    display:inline
 }
 
 .discount,
 .description{
     font-size: 16px;
     font-weight: normal;
-    display: inline;
+    display:inline
 }
 
 h3,
@@ -133,7 +137,6 @@ main section article i,
 }
 
 main section article i{
-    display: block;
     font-size: 16px;
     padding: 5px;
     width: 30px;
@@ -141,10 +144,6 @@ main section article i{
     border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-    /*position: absolute;
-    right: 35px;
-    top: 116%;*/
-    
 }
 
 main section h3{
@@ -160,17 +159,18 @@ article div.main-article{
 @media (min-width: 361px){
     main section article .description{
         display: block;
-        
-
     }
 
     main section article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+
+
+
 }
 
+
 @media (min-width: 769px){
-    
 
 }
 div.input{ 
@@ -207,8 +207,7 @@ justify-content: space-between;
 }
 
 .fa-credit-card:before{
-    color: #1259c3;
-    
+    color: #1259c3;    
 }
 
 .Envio-gratis{
@@ -218,17 +217,15 @@ justify-content: space-between;
 
 .fa-gift:before{
     color: #1259c3;
-    
 }
 
 .Seguridad{
     margin-bottom: 10px;
-    text-align: center;
+    text-align: center; 
 }
+
 .fa-user-shield:before{
-    color: #1259c3;
-    
-    
+    color: #1259c3;  
 }
 
 .Copyright{
