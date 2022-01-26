@@ -1,106 +1,108 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="css/stylesRegister.css" rel="stylesheet" type="text/css">
 
     <title>Formularios</title>
   </head>
   <body>
-    
-
-    <form method="POST" action=".....................">
-        <h3>Este es un formulario</h3>
-
-    <div>        
-        <input type="Nombre y apellido" placeholder="Ingrese su nombre y apellido"value="Nombre y Apellido" >
-    </div>  
-
-    <div>
-        <input type="Nombre de usuario" placeholder="Ingrese su nombre de usuario"value="Nombre de Usuario">
-    </div>   
-
-    <div>
-        <input type="email" placeholder="Ingrese su email" value="Email del Usuario">
-    </div>
-
-    <div>
-        <label>Fecha de nacimiento</label>
-        <div>
-        <input type="date" placeholder="Ingrese su fecha de nacimiento" value="Fecha de nacimiento">
+    <header>
+        <div class="top-header">
+            <div class="logo"> 
+                <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+            </div>
+            <div class="form" action="#" method="GET">
+                <div class="input">Buscar productos, marcas y más</div>
+                <div class="submit"><i class="fa fa-search"></i></div>
+            </div>
+            <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
         </div>
-    </div>
-    
-    <div>
-        <label>Domicilio</label>
-        <div>
-        <input type="text" placeholder="Ingrese su domicilio" value="domicilioDelUsuario">
-        </div>
-    </div>
-    
-    <div>
-    <label>Perfil del usuario</label>
-        <div>
-        <input id="comprar" type="radio" name="comprar-vender" value="Comprar">
-        <label for="comprar">Comprar</label>
-        <input id="vender" type="radio" name="comprar-vender" value="Vender">
-        <label for="vender">Vender</label>
-        </div>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
 
-    <div>
-    <label>Intereses</label>
-        <div>
-        <input id="Intereses" type="checkbox" name="Intereses" value="Electro">
-        <label for="Intereses">Electro</label>
+    </header>
+
+    <form method="POST" action="#">
+
+        <div class="nombre-apellido">        
+            <input type="Nombre y apellido" placeholder="Nombre y apellido">
+        </div>  
+
+        <div class="usuario">
+            <input type="Nombre de usuario" placeholder="Nombre de usuario">
+        </div>   
+
+        <div class="email">
+            <input type="email" placeholder="E-mail">
         </div>
 
-        <div>
-        <input id="Intereses" type="checkbox" name="Intereses" value="Moda">
-        <label for="Intereses">Moda</label>
-        </div>
-
-        <div>
-        <input id="Intereses" type="checkbox" name="Intereses" value="Hogar">
-        <label for="Intereses">Hogar</label>
-        </div>
+        <div class="fecha-de-nacimiento">
+            <label>Fecha de nacimiento</label>
+                <input type="date" placeholder="Fecha de nacimiento">
+       </div>
         
-        <div>
-        <input id="Intereses" type="checkbox" name="Intereses" value="Juguetería">
-        <label for="Intereses">Juguetería</label>
+        <div class="domicilio">
+            <label>Domicilio</label>
+                <input type="text" placeholder="Domicilio">
         </div>
-        
-        <div>
-        <input id="Intereses" type="checkbox" name="Intereses" value="Vida sana">
-        <label for="Intereses">Vida sana</label>
+        <div class ="perfil">
+            <label>Perfil del usuario</label>
         </div>
-
-    </div>
-    <div>
-        <div>
-        <label>Foto de Perfil</label>
+        <div class ="comprar-vender"></div>
+                <input id="comprar" type="radio" name="comprar-vender" value="Comprar">
+            <label for="comprar">Comprar</label>
+                <input id="vender" type="radio" name="comprar-vender" value="Vender">
+            <label for="vender">Vender</label>
         </div>
 
-        <div>
-        <input type="file" name="avatar" accept=".jpg" multiple>
+        <div class="interes">
+            <label>Intereses</label></div>
+             <div class="interes-del-usuario">
+                <input id="Intereses" type="checkbox" name="Intereses" value="Electro">
+            <label for="Intereses">Electro</label>
+                <input id="Intereses" type="checkbox" name="Intereses" value="Moda">
+            <label for="Intereses">Moda</label>
+                <input id="Intereses" type="checkbox" name="Intereses" value="Hogar">
+            <label for="Intereses">Hogar</label>
+                <input id="Intereses" type="checkbox" name="Intereses" value="Juguetería">
+            <label for="Intereses">Juguetería</label>
+                <input id="Intereses" type="checkbox" name="Intereses" value="Vida sana">
+            <label for="Intereses">Vida sana</label>
         </div>
-    </div>
 
-    <div>
-        <div>
-        <input type="password" name="password" placeholder="Contraseña">
+        <div class="foto-de-perfil">
+            <label>Foto de Perfil</label>
+        </div>
+        <div class="boton-foto-de-perfil">    
+            <input type="file" name="avatar" accept=".jpg" multiple>
+        </div>
+        <div class="password">
+            <input type="password" name="password" placeholder="Contraseña">
+            <input type="password" name="password" placeholder="Confirme contraseña">
         </div>
 
-        <div>
-        <input type="password" name="password" placeholder="Confirme contraseña">
-        </div>
-    </div>
-
-    <div>
-        <button type="reset">Reset</button>
-    </div> 
+        <div class="reset">
+            <button type="reset">Reset</button>
+        </div> 
+        <div class="enviar">
+            <button type="submit"><a href="/home">Enviar</a></button>
+        </div> 
 
     </form>
             
