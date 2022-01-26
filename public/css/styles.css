@@ -82,12 +82,14 @@ div.burger-menu i{
 
 .price{
     font-size: 18px;
+    display: inline;
 }
 
 .discount,
 .description{
     font-size: 16px;
     font-weight: normal;
+    display: inline;
 }
 
 h3,
@@ -112,13 +114,13 @@ main{
 main section article{
     background-color: #fff;    
     margin: 10px 0px;
-    height: 450px;
+    height: 410px;
     overflow: hidden;
-    transition: all 3s;
+    transition: all .3s;
 }
 
 main section article:hover{
-    height: 475px;
+    height: 435px;
 }
 
 main section article img{
@@ -131,6 +133,7 @@ main section article i,
 }
 
 main section article i{
+    display: block;
     font-size: 16px;
     padding: 5px;
     width: 30px;
@@ -138,6 +141,10 @@ main section article i{
     border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
+    /*position: absolute;
+    right: 35px;
+    top: 116%;*/
+    
 }
 
 main section h3{
