@@ -193,8 +193,8 @@ article div.main-article{
     main section article:hover{
         height: 410px;
     }
-    footer .contenedor-footer{
-        display: flex;
+    footer.contenedor-footer{
+       display: flex;
        flex-wrap: nowrap;
        flex-direction: row;
        align-content: center;
@@ -202,6 +202,7 @@ article div.main-article{
        align-items: center;
        margin: 10px;
        padding: 10px;
+        
    }
 }
 
@@ -227,7 +228,7 @@ article div.main-article{
     .input{
         width: 10px;
     }
-    footer .contenedor-footer{
+    .contenedor-footer{
        display: flex;
        flex-wrap: nowrap;
        flex-direction: row;
