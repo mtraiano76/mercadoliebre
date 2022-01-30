@@ -70,12 +70,48 @@ header div.top-header p{
     margin-top: 10px;
 }
 
-.nombre-password{
-    padding: 1px;
-    margin: 10px;
+main input{
+    padding: 1% 18%;
+    margin: 15px 5%;
+    border: 1;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    height: max-content;
+}   
+
+main input{
+    padding: 1% 18%;
+    margin: 15px 5%;
+    border: 1;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    height: max-content;
 }
 
-.password{
-    padding: 1px;
-    margin: 10px;
+main button{
+    background-color: #0069d9;
+    border: 1;
+    color: white;
+    padding: 1% 38%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 5%;
+    cursor: pointer;
+    height: max-content;
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    
+
+}
+
+@media (min-width: 769px){
+
+    header div.logo{
+        width: 350px;
+    }
 }
