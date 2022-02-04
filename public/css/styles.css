@@ -2,6 +2,7 @@
     margin: 0px; 
     padding: 0px;
     box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -16,8 +17,11 @@ h3{
 p{
     font-size: 12px;
 }
-div.top-header{
+.top-header{
     padding: 5%;
+    display: flex;
+    align-items: center;
+    
 }
 
 header{
@@ -28,21 +32,21 @@ header div.logo{
     width: 50%;
 }
 
-header div.logo{
-    padding: 10px;
-    margin-left: -14px;
-    margin-top: -10px;
-    margin-right: -20px;
+header nav{
+    font-size: 12px;   
 }
 
-header nav{
-    font-size: 12px;
+.logo-barra{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    align-content: center;
     flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: stretch;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+
+.lista ul li{
+    margin: 0 10px;
 }
 
 header ul li{
@@ -54,9 +58,11 @@ header ul li a{
     color: #000;
 }
 
-header .form{
+.form{
     display: flex;
     position: relative;
+    justify-content: flex-end;
+
 }
 
 header .form .input{
@@ -66,13 +72,30 @@ header .form .input{
     color: #666;
     padding: 2px;
     width: 50%;
+    height: 25px;
+    overflow: hidden;
+   
 }
+
 header .form .submit{
     background-color: #FFF;
     border: 1px solid #000;
     color: #666;
     width: 25px;
     height: 25px;
+}
+
+.flex-input-submit{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+}
+
+.compras-en-cuotas{
+    margin-left: 10px;
 }
 
 header div.top-header p{
@@ -94,6 +117,8 @@ div.burger-menu i{
     margin: 10px 0px 20px 0px;
     padding: 10px;
     width: 40px;
+    
+
 }
 
 .price{
@@ -166,6 +191,13 @@ article div.main-article{
     padding: 15px;
     position: relative;
 }
+.offers{
+    margin-bottom: 40px;
+}
+.icono-footer {
+    margin-bottom: 10px;
+}
+
 
 @media (min-width: 361px){
     main section article .description{
@@ -176,10 +208,7 @@ article div.main-article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
-   
     
-      
-
 }
 
 
@@ -198,7 +227,43 @@ article div.main-article{
     main section article:hover{
         height: 410px;
     }
-    footer.contenedor-footer{
+
+
+
+    
+    .top-header{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    header div.logo{
+        width: 145px;
+    }
+
+    .logo-barra {
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px 10px;
+        justify-content: space-between;
+    }
+
+    .lista ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    div.burger-menu{
+        display: none;
+    }
+
+    .listado{
+        display: flex;
+    }
+
+    .contenedor-footer{
        display: flex;
        flex-wrap: nowrap;
        flex-direction: row;
@@ -207,9 +272,17 @@ article div.main-article{
        align-items: center;
        margin: 10px;
        padding: 10px;
-        
-   }
+    }
+
+    .paga-con-tarjeta
+    .Seguridad
+    .Envio-gratis{
+        padding: 20px;
+        text-align: center;
+    }
+    
 }
+
 
 @media (min-width: 769px){
     .products article{
@@ -227,22 +300,96 @@ article div.main-article{
     main section article:hover{
         height: 380px;
     }
+
+    .top-header{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
     header div.logo{
         width: 350px;
     }
+    .logo-barra {
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px 10px;
+        justify-content: space-between;
+    }
+
+    
+
+    .flex-input-submit{
+        align-items: center;
+        display: inline-block;
+        width: 25%;
+    }
+
+    header .form .input{
+        background-color: #FFF;
+        border: 1px solid #000;
+        outline: none;
+        color: #666;
+        padding: 2px;
+        width: 100%;
+        height: 25px;
+        overflow: hidden;
+    }
+
+    .flex-input-submit {
+        align-items: center;
+        display: flex;
+        width: 80%;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+
+    .lista ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    div.burger-menu{
+        display: none;
+    }
+
+    .listado{
+        display: flex;
+    }
+
     .input{
         width: 10px;
     }
+
+    .logo-barra{
+        width: 60%;
+    }
+    
+    div.burger-menu{
+        display: none;
+    }
+  
     .contenedor-footer{
-       display: flex;
-       flex-wrap: nowrap;
-       flex-direction: row;
-       align-content: center;
-       justify-content: center;
-       align-items: center;
-       margin: 10px;
-       padding: 10px;
-   }
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px;
+        padding: 15px
+    }
+
+    .paga-con-tarjeta
+    .Seguridad
+    .Envio-gratis{
+       padding: 35px;
+       text-align: center;
+    }
 
 }
 
@@ -335,15 +482,7 @@ main section article .flex-conteiner{
 .Copyright{
     color:#666;
     text-align: left;
-    padding: auto;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
-
-
-
-/*a donde sea pero esto hace que se pongan en el mismo renglón/
-display: flex;
-flex-wrap: nowrap;
-align-content: center;
-justify-content: space-between;
-align-items: center;

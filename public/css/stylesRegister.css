@@ -1,75 +1,7 @@
-*{
-    margin: 0px; 
-    padding: 0px;
-    box-sizing: border-box; 
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color:#ebebeb;
-}
-
-h3{
-    font-size: 24px;
-}
-
-p{
-    font-size: 12px;
-}
-div.top-header{
-    padding: 5%;
-}
-
-header{
-    background-color: #EAC926;
-}
-
-header div.logo{
-    width: 50%;
-}
-
-header div.logo{
-    padding: 10px;
-}
-
-header nav{
-    font-size: 12px;
-}
-
-header ul li{
-    list-style-type: none;
-}
-
-header ul li a{
-    text-decoration: none;
-    color: #000;
-}
-
-header .form .input{
-    background-color: #FFF;
-    border: 1px solid #000;
-    outline: none;
-    color: #666;
-    padding: 2px;
-    width: 95%;
-}
-
-header .form .submit{
-    background-color: #FFF;
-    border: 1px solid #000;
-    color: #666;
-    width: 10%;
-}
-
-header div.top-header p{
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-}
-
 .nombre-apellido{
     padding: 1px;
     margin: 10px;
+
 }
 
 .usuario{
@@ -159,16 +91,19 @@ div.vida{
 .boton-foto-de-perfil{
     padding: 1px;
     margin: 10px;
+    width: 60%;
 }
 
 .password1{
     padding: 1px;
     margin: 10px;
+    width: 60%;
 }
 
 .password2{
     padding: 1px;
     margin: 10px;
+    width: 60%;
 }
 
 .reset{
@@ -179,4 +114,372 @@ div.vida{
 .enviar{
     padding: 1px;
     margin: 10px;
+}
+
+
+*{
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+.top-header{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo{
+    width: 50%;
+}
+
+header nav{
+    font-size: 12px;   
+}
+
+.logo-barra{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+
+.lista ul li{
+    margin: 0 10px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.form{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 50%;
+    height: 25px;
+    overflow: hidden;
+   
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 25px;
+    height: 25px;
+}
+
+.flex-input-submit{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+}
+
+.compras-en-cuotas{
+    margin-left: 10px;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+    
+
+}
+
+
+@media (min-width: 481px) and (max-width: 768px){
+        
+    .top-header{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    header div.logo{
+        width: 145px;
+    }
+
+    .logo-barra {
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px 10px;
+        justify-content: space-between;
+    }
+
+    .lista ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    div.burger-menu{
+        display: none;
+    }
+
+    .listado{
+        display: flex;
+    }
+
+    .contenedor-footer{
+       display: flex;
+       flex-wrap: nowrap;
+       flex-direction: row;
+       align-content: center;
+       justify-content: center;
+       align-items: center;
+       margin: 10px;
+       padding: 10px;
+    }
+
+    .paga-con-tarjeta
+    .Seguridad
+    .Envio-gratis{
+        padding: 20px;
+        text-align: center;
+    }
+    
+}
+
+
+@media (min-width: 769px){
+    
+    .top-header{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    header div.logo{
+        width: 350px;
+    }
+    .logo-barra {
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px 10px;
+        justify-content: space-between;
+    }
+
+    
+
+    .flex-input-submit{
+        align-items: center;
+        display: inline-block;
+        width: 25%;
+    }
+
+    header .form .input{
+        background-color: #FFF;
+        border: 1px solid #000;
+        outline: none;
+        color: #666;
+        padding: 2px;
+        width: 100%;
+        height: 25px;
+        overflow: hidden;
+    }
+
+    .flex-input-submit {
+        align-items: center;
+        display: flex;
+        width: 80%;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+
+    .lista ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    div.burger-menu{
+        display: none;
+    }
+
+    .listado{
+        display: flex;
+    }
+
+    .input{
+        width: 10px;
+    }
+
+    .logo-barra{
+        width: 60%;
+    }
+    
+    div.burger-menu{
+        display: none;
+    }
+  
+    .contenedor-footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px;
+        padding: 15px
+    }
+
+    .paga-con-tarjeta
+    .Seguridad
+    .Envio-gratis{
+       padding: 35px;
+       text-align: center;
+    }
+
+}
+
+div.input{ 
+    width: 50%;
+}
+    
+.products{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main section article .flex-conteiner{
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-price-discount{
+    display: flex;
+}
+
+.flex-price-info{
+    display: flex;
+}
+
+.flex-price-info .price{
+    width: 30%;
+}
+
+.flex-price-info .discount{
+    width: 70%;
+}
+
+.fa-truck {
+    transition: .5s;    ;
+}
+
+.fa-truck:hover{
+    transform: rotate(-90deg);
+}
+
+.top-header{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    color:#666;
+    text-align: center;
+}
+
+.paga-con-tarjeta{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.fa-credit-card:before{
+    color: #1259c3;    
+}
+
+.Envio-gratis{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.fa-gift:before{
+    color: #1259c3;
+}
+
+.Seguridad{
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.fa-user-shield:before{
+    color: #1259c3;  
+}
+
+.Copyright{
+    color:#666;
+    text-align: left;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
